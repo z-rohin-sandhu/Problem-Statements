@@ -6,6 +6,7 @@ string=input()
 
 # Function to sum integers present in String
 def stringsum(string):
+    """Function to sum integers present in String"""
     sum=0
     for i in range(len(string)):
         if string[i].isnumeric():
